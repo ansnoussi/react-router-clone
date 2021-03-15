@@ -1,11 +1,14 @@
 import { useContext } from "react"
-
 import './App.css';
-import Link from "./router/Link"
-import Router from "./router/Router"
-import Routes from "./router/Routes"
-import Route from "./router/Route"
-import { RouteContext } from "./router/RouteContext"
+
+
+import {Router, Routes, Route, Link, RouteContext} from "./router"
+
+// import Link from "./router/Link"
+// import Router from "./router/Router"
+// import Routes from "./router/Routes"
+// import Route from "./router/Route"
+// import { RouteContext } from "./router/RouteContext"
 
 // extract parameters from the URL
 function useParams() {
